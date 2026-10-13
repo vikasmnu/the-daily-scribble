@@ -1,0 +1,51 @@
+.main {
+  margin: 0 auto;
+  text-align: center;
+  color: #121212;
+}
+
+img {
+  width: 380px;
+}
+
+h1 {
+  color: #121212;
+  font-size: 2rem;
+}
+
+.main-text {
+  text-align: center;
+  width: 380px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 19px;
+  color: #121212;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input,
+button {
+  width: 250px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  border:
+    3px,
+    solid #121212;
+  line-height: 30px;
+}
+
+button {
+  background-color: #121212;
+  color: white;
+}
+
+input {
+  text-align: center;
+  color: gray;
+  font-size: 15px;
+}
